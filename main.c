@@ -1,11 +1,15 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+  int N;
+  printf("nhap N: ");
+  scanf("%d", &N);
 
-    return 0;
+  if (N % 2 == 0){
+      printf("so chan");
+  } else
+{
+      printf("so le");
+}
+  return 0;
 }
