@@ -1,17 +1,29 @@
 #include <stdio.h>
+int main()
+{
 
-int main() 
-  int a, b, c;
-  scanf("%d %d %d", &a, &b, &c);
-
-  int max = a;
-  if (b > max){
-    max = b;
-  }
-int max = a;
-  if (c > max){
-    max = c;
-  }
-  printf("%d", max);
-  return 0;
+	float a, b, c, max;
+	
+	printf("nhap so thu nhat: ");
+	scanf("%f", &a);
+	
+	printf("nhao so thu hai :");
+	scanf("%f", &b);
+	
+	printf("nhao so thu ba :");
+ 	scanf("%f", &c);
+ 	
+	max = a;
+	
+	if (b > max)
+{
+	max = b;
+}
+	if (c > max)
+{
+	max = c;
+}
+	printf("so lon nhat laf: %.2f\n", max);
+	
+	return 0;
 }
