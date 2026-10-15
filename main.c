@@ -2,19 +2,14 @@
 
 int main() 
 {
-
-  int a, b, c;
-  scanf("%d %d %d", &a, &b, &c);
-
-  int max = a;
-  if (b > max){
-    max = b;
+  int n;
+  scanf("%d", &n);
+if(n2==0{
+  printf("CHAN");
 }
-  if (c > max){
-    max = c;
-  }
-  printf("%d", max);
+ else{
+   printf("LE");
+ }
   return 0; 
-  
-  
 }
+  
