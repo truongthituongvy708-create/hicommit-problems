@@ -4,7 +4,7 @@ int main()
 {
   int n;
   scanf("%d", &n);
-if(n2==0{
+if(n%2==0){
   printf("CHAN");
 }
  else{
@@ -12,4 +12,5 @@ if(n2==0{
  }
   return 0; 
 }
-  
+
+
