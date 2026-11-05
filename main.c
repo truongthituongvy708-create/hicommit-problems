@@ -1,17 +1,16 @@
 #include <stdio.h>
-in main()
+int main()
 {
   int xeploai;
   scanf("%d",&xeploai);
-  switch(phanloai)
-{
+  switch(phanloai){
   case 1:
     printf("XEP_LOAI_XUAT_SAC");
     break;
   case 2:
     printf("XEP_LOAI_GIOI");
-    break
-  case 3
+    break;
+  case 3:
     printf("XEP_LOAI_KHA");
     break;
   case 4:
