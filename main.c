@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-dtb = float(input)
-drl = float(input)
+dtb = float(input())
+drl = float(input())
 quy_uoc_dtb = [9.0, 8.0 7.0]
 xep_loai_theo_drl = ["XUAT_SAC", "TOT", "KHA", "KHONG_DAT");
-hoc_luc = kha va (ren luyen = kha hoac tot hoac xuat sac) hoac ;
-hoc_luc = gioi va ren luyen = kha hoac ;
+hoc_luc = kha and (ren luyen = kha or tot or xuat sac) or ;
+hoc_luc = gioi va ren luyen = kha or ;
 hoc_luc = xuat sac va ren luyen = kha 
 default 
   printf("KHONG_DAT");
