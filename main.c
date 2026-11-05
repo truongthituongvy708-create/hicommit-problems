@@ -1,4 +1,6 @@
 #include <stdio.h>
+in main()
+{
 int xeploai;
 scanf("%d",&xeploai);
 switch (phanloai)
@@ -18,7 +20,5 @@ switch (phanloai)
   default
       printf("KHONG_HOP_LE");
 }
-
-int main() {
   return 0;
 }
