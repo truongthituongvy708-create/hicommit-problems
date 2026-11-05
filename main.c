@@ -1,32 +1,18 @@
 #include <stdio.h>
 
 int main(){
- float dtb, drl;
+  float dtb, drl;
   scanf("%f %f", &dtb , &drl);
-if (dtb >= 9.0):
-   hoc_luc = ("XUAT_SAC")
-else if( dtb >= 8.0):
-   hoc_luc = ("GIOI")
-else if ( dtb >= 7.0):
-  hoc_luc = ("KHA")
-else
-  hoc_luc = ("KHONG_DAT")
-if  (drl >= 90):
-  ren_luyen = ("XUAT_SAC")
-else if (drl >= 80):
-  ren_luyen = ("TOT")
-else if( drl >=70):
-  ren_luyen = ("KHA")
-else
-  ren_luyen = ("KHONG_DAT")
 
-if hoc_luc=="XUAT_SAC" && ren_luyen == "XUAT_SAC";{
-  printf("HOC_BONG_XUAT_SAC")
-}
-else if (hoc_luc == "GIOI" and (ren_luyen == "TOT" && ren_luyen == "XUAT_SAC")) && (hoc_luc == "XUAT_SAC" && ren_luyen == "TOT"){
-  printf ("HOC_BONG_GIOI")
-}else{
-  printf("KHONG_DUOC_HOC_BONG")
-}
+  if (dtb>=9 && drl>=90) {
+    printf("HOC_BONG_XUAT_SAC");
+  } else if (dtb>=8 && dtb<9 && drl>=80 || dtb>=9 && drl>=80 && drl<90) {
+    printf("HOC_BONG_GIOI");
+  } else if (dtb>=7 && dtb<8 && drl>=70 || dtb>=8 && dtb<9 && drl>=70 && drl<80 || dtb>=9 && drl>=70 && drl<80) {
+    printf("HOC_BONG_KHA");
+  } else {
+    printf("KHONG_DAT");
+  }
+  
   return 0;
 }
