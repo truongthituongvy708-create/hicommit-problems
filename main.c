@@ -2,8 +2,7 @@
 
 int main(){
  float dtb, drl;
-  scanf("%f %f", &dtb , &drl)
-
+  scanf("%f %f", &dtb , &drl);
 if (dtb >= 9.0):
    hoc_luc = ("XUAT_SAC")
 else if( dtb >= 8.0):
