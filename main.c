@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-dtb = float(input())
-drl = float(input())
+ float dtb,drl;
+  scanf("%f%f", &drl, &dtb);
 
 if dtb >= 9.0:
    hoc_luc = "XUAT_SAC"
