@@ -1,9 +1,9 @@
 #include <stdio.h>
 in main()
 {
-int xeploai;
-scanf("%d",&xeploai);
-switch (phanloai)
+  int xeploai;
+  scanf("%d",&xeploai);
+  switch(phanloai)
 {
   case 1:
     printf("XEP_LOAI_XUAT_SAC");
@@ -17,7 +17,7 @@ switch (phanloai)
   case 4:
     printf("XEP_LOAI_TRUNG_BINH");
     break;
-  default
+  default:
       printf("KHONG_HOP_LE");
 }
   return 0;
